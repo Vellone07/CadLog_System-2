@@ -1,5 +1,4 @@
 
-
 <?php
  
  // inclui arquivos de controlador para lidar com diferentes ações
@@ -7,7 +6,7 @@
  // inclui o controlador autenticação
  require 'controllers/UserController.php';
  // inclui o controlador de usuário
- require 'controllers/DeshboardController.php';
+ require 'controllers/DashboardController.php';
  // inclui o controlador de usuário
   
  // Cria instâncias dos controladores para ultilizar seus métodos
