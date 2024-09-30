@@ -18,7 +18,7 @@ Login de Usuário: Autenticação simples e segura com email e senha. 🔑
 Cadastro de Usuário: Registro de novos usuários com atribuição automática de perfis. 📝  
 Validação de Formulários: Checagem automática de campos obrigatórios, padrões de email e regras de senha. ✔️  
 Estilização Responsiva: Layout adaptável a diferentes tamanhos de tela, otimizando a experiência em desktops e dispositivos móveis. 📱💻  
-Degradê e Animações CSS: Fundo das páginas com transição suave de cores (🌸 rosa para 🌌 roxo pastel) e botões que reagem ao movimento do mouse com efeitos de crescimento e mudança de cor. ✨  
+Degradê e Animações CSS: Fundo das páginas com cores e botões que reagem ao movimento do mouse com efeitos de crescimento e mudança de cor. ✨  
 
 # 🖼️ Telas
 
