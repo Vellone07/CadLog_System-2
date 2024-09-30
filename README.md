@@ -21,6 +21,7 @@ Degradê e Animações CSS: Fundo das páginas com degradê de rosa para roxo pa
 
 TELAS
 
+![image](image.png)
 
 
 Tecnologias Utilizadas
