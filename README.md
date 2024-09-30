@@ -1,39 +1,31 @@
-O CadLog_System é um sistema de cadastro e login de usuários que oferece três tipos distintos de perfis de acesso:
 
-Admin: Acesso total ao sistema, com capacidade de gerenciar usuários e configurações.
+CadLog_System  
 
-Gestor: Acesso intermediário, podendo gerenciar dados e equipes.
 
-Colaborador: Acesso limitado, podendo visualizar e interagir com partes específicas da aplicação.
+O CadLog_System é uma solução robusta para cadastro e login de usuários, oferecendo três tipos de perfis de acesso:  
 
-Desenvolvido com foco em usabilidade e acessibilidade, o projeto busca uma interface responsiva, design moderno e cores suaves.
+Admin: Controle total do sistema, com permissões para gerenciar usuários, configurações e dados.  
+Gestor: Acesso intermediário, com permissão para gerenciar dados e equipes.  
+Colaborador: Acesso limitado, podendo visualizar e interagir com áreas específicas da aplicação.  
+Desenvolvido com foco em usabilidade e acessibilidade, o sistema apresenta uma interface moderna e responsiva, com design que se adapta a diversos dispositivos, oferecendo uma experiência visual agradável.  
 
-Funcionalidades
-Login de Usuário: Autenticação de usuários com email e senha.
+Funcionalidades Principais  
 
-Cadastro de Usuário: Registro de novos usuários com atribuição de perfis (Admin, Gestor, Colaborador).
+Login de Usuário: Autenticação com email e senha.  
+Cadastro de Usuário: Registro de novos usuários com atribuição automática de perfis.  
+Validação de Formulários: Checagem automática de campos obrigatórios, padrões de email e regras de senha.  
+Estilização Responsiva: Layout adaptável a diferentes tamanhos de tela, otimizando a experiência em desktops e dispositivos móveis.  
+Degradê e Animações CSS: Fundo das páginas com transição suave de cores (rosa para roxo pastel) e botões que reagem ao movimento do mouse com efeitos de crescimento e mudança de cor.  
 
-Validação de Formulários: Checagem de campos obrigatórios e padrões de email e senha.
+TELAS  
 
-Estilização Responsiva: Layout adaptável a diversos tamanhos de tela, proporcionando uma ótima experiência em desktops e dispositivos móveis.
-
-Degradê e Animações CSS: Fundo das páginas com degradê de rosa para roxo pastel e botões que aumentam de tamanho e mudam de cor ao passar o mouse.
-
-TELAS
-
-![image](image.png)
-
-![image](img2.pgn)
+Adicionar aqui as imagens relevantes ou uma descrição visual das telas caso seja necessário.  
 
 Tecnologias Utilizadas
-GitHub
 
-Xampp
-
-PhpMyAdmin
-
-PHP
-
-CSS
-
-HTML
+GitHub: Controle de versão e colaboração no código.  
+XAMPP: Plataforma para desenvolvimento local.  
+PhpMyAdmin: Gerenciamento de banco de dados MySQL.  
+PHP: Backend para a lógica de autenticação e gerenciamento.  
+CSS: Estilização das páginas com foco em acessibilidade e animações.  
+HTML: Estruturação semântica das páginas.  
