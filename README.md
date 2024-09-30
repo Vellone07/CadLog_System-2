@@ -23,6 +23,7 @@ TELAS
 
 ![image](image.png)
 
+![image](img2.pgn)
 
 Tecnologias Utilizadas
 GitHub
