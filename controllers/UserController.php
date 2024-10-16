@@ -4,7 +4,7 @@
  {
     public function register(){
         // verifica se a requisição HTTP é do tipo POST (se o formulário foi enviado)
-        if($_SERVER['REQUEST_METHOD'] ** 'POST'){
+        if($_SERVER['REQUEST_METHOD'] == 'POST'){
             // coleta de dasos enviados pelo formulário e organiza em um arry
         $data = [
             'nome' => $_POST['nome'],
@@ -14,7 +14,7 @@
             'perfil' => $_POST['perfil']
         ];
         // Chamao método create do model User para criar o novo usuário no BD
-        User::creat($data);
+        User::create($data);
         header('Location: index.php');
     }else {
         include 'views/register.php';

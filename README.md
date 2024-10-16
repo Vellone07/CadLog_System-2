@@ -1,13 +1,10 @@
-<<<<<<< HEAD
+
 
 
 #   CadLog_System  
 
 ## Descrição do Projeto
 O CadLog_System é uma solução robusta para cadastro e login de usuários, oferecendo três tipos de perfis de acesso:  
-=======
->>>>>>> c157413c45cf34a2b2508129b1483d4f6085296b
-
 
 #   CadLog_System  
 
@@ -69,10 +66,12 @@ Degradê e Animações CSS: Fundo das páginas com transição suave de cores (r
 =======
 Tecnologias Utilizadas
 
->>>>>>> c157413c45cf34a2b2508129b1483d4f6085296b
+
 GitHub: Controle de versão e colaboração no código.  
 XAMPP: Plataforma para desenvolvimento local.  
 PhpMyAdmin: Gerenciamento de banco de dados MySQL.  
 PHP: Backend para a lógica de autenticação e gerenciamento.  
 CSS: Estilização das páginas com foco em acessibilidade e animações.  
 HTML: Estruturação semântica das páginas.  
+=======
+
