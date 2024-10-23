@@ -5,7 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" type='text/css' media='screen' href="">
+    <style>
+        body {
+            background-color: #000; /* Fundo preto */
+            color: #fff; /* Texto branco */
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #333; /* Fundo cinza escuro */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 0, 0.7); /* Sombra amarela */
+            width: 100%;
+            max-width: 500px; /* Largura máxima */
+            text-align: center; /* Centraliza o texto */
+        }
+
+        h1 {
+            color: #ff0; /* Amarelo para o título */
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #fff; /* Texto branco */
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff0; /* Fundo amarelo */
+            color: #000; /* Texto preto */
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .btn:hover {
+            background-color: #ffd700; /* Mais claro no hover */
+        }
+    </style>
 </head>
  
 <body class="<?= $_SESSION['perfil']  ?>"> <!-- Define a classe com base no perfil -->
