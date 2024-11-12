@@ -85,8 +85,9 @@ if(isset($_SESSION['perfil'])):
             margin-top: 20px;
         }
     </style>
-</head>
 
+</head>
+ 
 <body class="<?= $_SESSION['perfil'] ?> "> <!-- Define a classe com base no perfil do usuário -->
     <div class="container">
         <h2>Lista de Usuários</h2>
@@ -109,9 +110,10 @@ if(isset($_SESSION['perfil'])):
                     <td><?= $user['perfil'] ?></td>
                     <td>
                         <?php if($_SESSION['perfil'] == 'admin' || $_SESSION['perfil'] == 'gestor'): ?>
-                            <a href="">Editar</a>
+                            <a href="index.php?edit&id=<?= $user['id'] ?>">Editar</a>
+ 
                         <?php endif; ?>
-
+ 
                         <!-- Insere botão de exclusão apenas para perfil admin -->
                         <?php if($_SESSION['perfil'] == 'admin'): ?>
                             <a href="">Excluir</a>
@@ -125,13 +127,13 @@ if(isset($_SESSION['perfil'])):
         <a href="index.php?action=dashboard" class="btn">Voltar ao Dashboard</a>
     </div>
 </body>
-
+ 
 </html>
-
+ 
 <?php else: ?>
-
+ 
 <p>Erro: Você não tem permissão para visualizar essa página</p>
-
+ 
 <?php
 endif;
 ?>
