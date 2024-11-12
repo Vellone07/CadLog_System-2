@@ -116,7 +116,7 @@ if(isset($_SESSION['perfil'])):
  
                         <!-- Insere botão de exclusão apenas para perfil admin -->
                         <?php if($_SESSION['perfil'] == 'admin'): ?>
-                            <a href="">Excluir</a>
+                            <a href="index.php?action=delete&id=<?=$user['id']?>">Excluir</a>
                         <?php endif; ?>
                     </td>
                 </tr>

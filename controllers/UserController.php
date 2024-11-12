@@ -10,7 +10,7 @@ class UserController
                 'senha' => password_hash($_POST['senha'], PASSWORD_DEFAULT),// Criptografa a senha
                 'perfil'=> $_POST['perfil']
             ];
-
+ 
             User::create($data);
             header('Location: index.php');
         }else{
@@ -18,30 +18,44 @@ class UserController
             include 'views/register.php';
         }
     }
-
+ 
     public function list(){
         $users = User::all();
         include 'views/list_users.php';
     }
-
+ 
     public function edit($id){
         session_start();
-        //permitir de admin e gestor editem usuários
+ 
+        // Permitir que adimin e gestor editem
         if($_SESSION['perfil'] == 'admin' || $_SESSION['perfil'] == 'gestor'){
-            $user = User::find($id);
+            $user == User::find($id);
+ 
             if($_SERVER['REQUEST_METHOD'] == 'POST'){
                 $data = [
                     'nome'  => $_POST['nome'],
                     'email' => $_POST['email'],
                     'perfil'=> $_POST['perfil']
                 ];
-    User::update($id, $data);
-    header('Location: index.php?action=list');
+ 
+                User::update($id, $data);
+                header('Location: index.php?action=List');
+            }else{
+                include 'views/edit_user.php';
             }
+        }else{
+            echo'Você não tem permissão para editar usuario';
         }
-           
-}
 
+    }
+
+    public function delete($id){
+        User::delete($id);
+        header('Location: index.php?action=list');
+    }
+       
+}
+ 
 ?>
 
 
