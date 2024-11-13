@@ -24,6 +24,9 @@ Degradê e Animações CSS: Fundo das páginas com cores e botões que reagem ao
 
 ![img](img2.png)
 ![img](image.png)
+![img](image3.png)
+![img](image4.png)
+![img](image5.png)
 
 
 # 🛠️ Tecnologias Utilizadas
