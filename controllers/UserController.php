@@ -29,7 +29,7 @@ class UserController
  
         // Permitir que adimin e gestor editem
         if($_SESSION['perfil'] == 'admin' || $_SESSION['perfil'] == 'gestor'){
-            $user == User::find($id);
+            $user = User::find($id);
  
             if($_SERVER['REQUEST_METHOD'] == 'POST'){
                 $data = [
@@ -39,6 +39,7 @@ class UserController
                 ];
  
                 User::update($id, $data);
+
                 header('Location: index.php?action=List');
             }else{
                 include 'views/edit_user.php';
