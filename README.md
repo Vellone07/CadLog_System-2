@@ -1,24 +1,30 @@
- ## 🚀 CadLog_System
+## 🚀 CadLog_System
+
 # 🌟 Descrição do Projeto
-O CadLog_System é uma solução robusta para cadastro e login de usuários, projetada para atender a diferentes necessidades organizacionais. Com três tipos de perfis de acesso, o sistema garante controle e segurança:  
+O CadLog_System é uma solução robusta para cadastro e login de usuários, projetada para atender a diferentes necessidades organizacionais. Com três tipos de perfis de acesso, o sistema garante controle e segurança:
 
 # 👨‍💼 Admin
 Controle total do sistema.  
-Permissões para gerenciar usuários, configurações e dados.  
+Permissões para gerenciar usuários, configurações e dados. Agora, também tem permissões para **editar e excluir usuários**.
+
 # 📊 Gestor
 Acesso intermediário.  
-Permissão para gerenciar dados e equipes.  
+Permissão para gerenciar dados e equipes. Também possui agora a permissão para **editar e excluir usuários**.
+
 # 👥 Colaborador
 Acesso limitado.  
 Capacidade de visualizar e interagir com áreas específicas da aplicação.  
-Desenvolvido com foco em usabilidade e acessibilidade, o sistema apresenta uma interface moderna e responsiva, com um design que se adapta a diversos dispositivos, proporcionando uma experiência visual agradável.  
+
+Desenvolvido com foco em usabilidade e acessibilidade, o sistema apresenta uma interface moderna e responsiva, com um design que se adapta a diversos dispositivos, proporcionando uma experiência visual agradável.
 
 # ⚙️ Funcionalidades Principais
-Login de Usuário: Autenticação simples e segura com email e senha. 🔑  
-Cadastro de Usuário: Registro de novos usuários com atribuição automática de perfis. 📝  
-Validação de Formulários: Checagem automática de campos obrigatórios, padrões de email e regras de senha. ✔️  
-Estilização Responsiva: Layout adaptável a diferentes tamanhos de tela, otimizando a experiência em desktops e dispositivos móveis. 📱💻  
-Degradê e Animações CSS: Fundo das páginas com cores e botões que reagem ao movimento do mouse com efeitos de crescimento e mudança de cor. ✨  
+- **Login de Usuário**: Autenticação simples e segura com email e senha. 🔑  
+- **Cadastro de Usuário**: Registro de novos usuários com atribuição automática de perfis. 📝  
+- **Edição e Exclusão de Usuários**: Admins e Gestores agora podem editar e excluir usuários diretamente pela interface. ♻️  
+- **Validação de Formulários**: Checagem automática de campos obrigatórios, padrões de email e regras de senha. ✔️  
+- **Estilização Responsiva**: Layout adaptável a diferentes tamanhos de tela, otimizando a experiência em desktops e dispositivos móveis. 📱💻  
+- **Degradê e Animações CSS**: Fundo das páginas com cores e botões que reagem ao movimento do mouse com efeitos de crescimento e mudança de cor. ✨  
+
 
 # 🖼️ Telas
 
